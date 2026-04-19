@@ -1,0 +1,402 @@
+[
+    {
+        "question": "What is Software Testing?",
+        "answer": "The process of evaluating a system to ensure it meets requirements and is defect-free."
+    },
+    {
+        "question": "What is the difference between Verification and Validation?",
+        "answer": "Verification checks if we are building the product right; Validation checks if we are building the right product."
+    },
+    {
+        "question": "What is a Test Plan?",
+        "answer": "A document describing the scope, approach, resources, and schedule of intended test activities."
+    },
+    {
+        "question": "What is a Test Case?",
+        "answer": "A set of preconditions, inputs, actions, and expected results to test a specific feature."
+    },
+    {
+        "question": "What is an edge case?",
+        "answer": "A problem or situation that occurs only at an extreme operating parameter."
+    },
+    {
+        "question": "Explain the boundary value analysis.",
+        "answer": "A test design technique focused on the values at the boundaries of input domains."
+    },
+    {
+        "question": "What is Equivalence Partitioning?",
+        "answer": "A technique that divides input data into valid and invalid partitions."
+    },
+    {
+        "question": "What is Smoke Testing?",
+        "answer": "A subset of test cases that cover the most important functionality of a component or system."
+    },
+    {
+        "question": "What is Sanity Testing?",
+        "answer": "A quick check to ensure that recent code changes or fixes work as expected without deep testing."
+    },
+    {
+        "question": "What is Regression Testing?",
+        "answer": "Testing an existing software application to make sure that a recent change hasn't broken any existing functionality."
+    },
+    {
+        "question": "What is Exploratory Testing?",
+        "answer": "Simultaneous learning, test design, and test execution without formal test cases."
+    },
+    {
+        "question": "What is Ad-hoc Testing?",
+        "answer": "Informal testing performed without planning or documentation."
+    },
+    {
+        "question": "What is Black Box Testing?",
+        "answer": "Testing software without looking at its internal code structure."
+    },
+    {
+        "question": "What is White Box Testing?",
+        "answer": "Testing software with knowledge of its internal code structure and logic."
+    },
+    {
+        "question": "What is Gray Box Testing?",
+        "answer": "A combination of Black and White box testing where the tester has partial knowledge of the internal code."
+    },
+    {
+        "question": "What is the Bug Life Cycle?",
+        "answer": "The journey of a defect from its discovery to its closure."
+    },
+    {
+        "question": "What is the difference between a Bug, Defect, and Error?",
+        "answer": "Error is made by human, Defect is found in the code, Bug is found during execution."
+    },
+    {
+        "question": "What is Severity?",
+        "answer": "The degree of impact that a defect has on the system."
+    },
+    {
+        "question": "What is Priority?",
+        "answer": "The order in which a defect should be fixed."
+    },
+    {
+        "question": "Can a bug have High Severity and Low Priority?",
+        "answer": "Yes, if an app crashes on an obscure page that users rarely visit."
+    },
+    {
+        "question": "Can a bug have Low Severity and High Priority?",
+        "answer": "Yes, like a spelling mistake in the company logo on the homepage."
+    },
+    {
+        "question": "What is Integration Testing?",
+        "answer": "Testing combined parts of an application to determine if they function together correctly."
+    },
+    {
+        "question": "What is System Testing?",
+        "answer": "Testing the completely integrated system to evaluate its compliance with requirements."
+    },
+    {
+        "question": "What is Acceptance Testing?",
+        "answer": "Testing conducted to determine whether a system satisfies its acceptance criteria."
+    },
+    {
+        "question": "What is UAT?",
+        "answer": "User Acceptance Testing, performed by end-users to validate the system."
+    },
+    {
+        "question": "What is Alpha Testing?",
+        "answer": "Simulated or actual operational testing by potential users/customers or an independent test team at the developers' site."
+    },
+    {
+        "question": "What is Beta Testing?",
+        "answer": "Testing by potential customers at their own locations."
+    },
+    {
+        "question": "What is Performance Testing?",
+        "answer": "Testing to assess the speed, responsiveness, and stability of a system under workload."
+    },
+    {
+        "question": "What is Load Testing?",
+        "answer": "Testing a system's behavior under an expected load."
+    },
+    {
+        "question": "What is Stress Testing?",
+        "answer": "Testing a system beyond its normal operational capacity to observe how it fails."
+    },
+    {
+        "question": "What is Security Testing?",
+        "answer": "Testing to identify vulnerabilities and ensure data protection."
+    },
+    {
+        "question": "What is Usability Testing?",
+        "answer": "Evaluating a product by testing it with representative users."
+    },
+    {
+        "question": "What is Accessibility Testing?",
+        "answer": "Ensuring the application is usable by people with disabilities."
+    },
+    {
+        "question": "What is Localization Testing?",
+        "answer": "Testing how well a software conforms to the local culture and language."
+    },
+    {
+        "question": "What is Globalization Testing?",
+        "answer": "Testing software for worldwide functionality across many cultures and locales."
+    },
+    {
+        "question": "What is Retesting?",
+        "answer": "Testing a previously failed test case after developers have fixed the defect."
+    },
+    {
+        "question": "What is a Test Strategy?",
+        "answer": "A high-level document defining the test phases, types of testing, and overall approach."
+    },
+    {
+        "question": "What is a Test Scenario?",
+        "answer": "A high-level description of an action or event a user might take in the application."
+    },
+    {
+        "question": "What is Test Data?",
+        "answer": "Inputs and parameters specifically designed to test an application."
+    },
+    {
+        "question": "What is Test Coverage?",
+        "answer": "A metric that measures the amount of testing performed by a set of tests."
+    },
+    {
+        "question": "What is the SDLC?",
+        "answer": "Software Development Life Cycle."
+    },
+    {
+        "question": "What is the STLC?",
+        "answer": "Software Testing Life Cycle."
+    },
+    {
+        "question": "Name the phases of STLC.",
+        "answer": "Requirement Analysis, Test Planning, Test Design, Environment Setup, Test Execution, Test Closure."
+    },
+    {
+        "question": "What is Agile Testing?",
+        "answer": "Testing practice that follows the principles of agile software development."
+    },
+    {
+        "question": "What is a User Story?",
+        "answer": "An informal, general explanation of a software feature written from the perspective of the end user."
+    },
+    {
+        "question": "What is a Sprint in Agile?",
+        "answer": "A short, time-boxed period when a scrum team works to complete a set amount of work."
+    },
+    {
+        "question": "What is a Defect Triage?",
+        "answer": "A meeting where defects are analyzed, prioritized, and assigned."
+    },
+    {
+        "question": "What is a Traceability Matrix?",
+        "answer": "A document that maps and traces user requirements with test cases."
+    },
+    {
+        "question": "What is Negative Testing?",
+        "answer": "Testing the application with invalid input to check its error handling."
+    },
+    {
+        "question": "What is Positive Testing?",
+        "answer": "Testing the application with valid input to see if it behaves as expected."
+    },
+    {
+        "question": "What is Test Automation?",
+        "answer": "Using software separate from the software being tested to control the execution of tests."
+    },
+    {
+        "question": "Why should we automate tests?",
+        "answer": "To save time, reduce human error, increase coverage, and allow frequent regression testing."
+    },
+    {
+        "question": "What test cases should not be automated?",
+        "answer": "Tests executed only once, tests with frequently changing UI, and exploratory tests."
+    },
+    {
+        "question": "What test cases should be automated?",
+        "answer": "Repetitive tests, regression tests, and high-risk critical path tests."
+    },
+    {
+        "question": "What is Selenium?",
+        "answer": "An open-source suite of tools for automating web browsers."
+    },
+    {
+        "question": "What are the components of Selenium?",
+        "answer": "Selenium IDE, Selenium RC, Selenium WebDriver, and Selenium Grid."
+    },
+    {
+        "question": "What is Selenium WebDriver?",
+        "answer": "An API that allows programmatic interaction with web browsers."
+    },
+    {
+        "question": "What is Selenium Grid?",
+        "answer": "A tool used for parallel test execution across different machines and browsers."
+    },
+    {
+        "question": "What is an implicit wait in Selenium?",
+        "answer": "A global wait that sets a default waiting time for all elements to be found."
+    },
+    {
+        "question": "What is an explicit wait in Selenium?",
+        "answer": "A wait specified for a particular condition before proceeding with execution."
+    },
+    {
+        "question": "What is Fluent Wait?",
+        "answer": "A wait that defines the maximum amount of time to wait and the frequency to check the condition."
+    },
+    {
+        "question": "How do you locate an element in Selenium?",
+        "answer": "Using locators like ID, Name, Class Name, Tag Name, Link Text, Partial Link Text, CSS Selector, and XPath."
+    },
+    {
+        "question": "What is XPath?",
+        "answer": "XML Path, a language to navigate through elements and attributes in an XML or HTML document."
+    },
+    {
+        "question": "What is an Absolute XPath?",
+        "answer": "The complete path from the root node to the desired element, starting with a single slash."
+    },
+    {
+        "question": "What is a Relative XPath?",
+        "answer": "A path that starts from anywhere within the document, starting with a double slash."
+    },
+    {
+        "question": "Which is better: CSS Selector or XPath?",
+        "answer": "CSS Selectors are generally faster and more readable than XPath."
+    },
+    {
+        "question": "What is a Test Framework?",
+        "answer": "A set of guidelines, writing standards, and tools for automated testing."
+    },
+    {
+        "question": "Name some types of automation frameworks.",
+        "answer": "Data-Driven, Keyword-Driven, Modular, and Hybrid frameworks."
+    },
+    {
+        "question": "What is the Page Object Model (POM)?",
+        "answer": "A design pattern that creates an object repository for web UI elements to enhance code reusability."
+    },
+    {
+        "question": "What is Data-Driven Testing?",
+        "answer": "A framework where test input and output values are read from external data files."
+    },
+    {
+        "question": "What is BDD?",
+        "answer": "Behavior-Driven Development, an agile process that encourages collaboration between developers, QA, and non-technical stakeholders."
+    },
+    {
+        "question": "Name a popular BDD framework.",
+        "answer": "Cucumber."
+    },
+    {
+        "question": "What is Gherkin?",
+        "answer": "A plain English language used by Cucumber to define test scenarios using Given-When-Then syntax."
+    },
+    {
+        "question": "What is API Testing?",
+        "answer": "Testing Application Programming Interfaces directly to determine if they meet expectations for functionality, reliability, and security."
+    },
+    {
+        "question": "What is Postman?",
+        "answer": "An API platform for building and using APIs, often used for manual and automated API testing."
+    },
+    {
+        "question": "What is REST?",
+        "answer": "Representational State Transfer, an architectural style for designing networked applications."
+    },
+    {
+        "question": "What are the common HTTP methods used in REST?",
+        "answer": "GET, POST, PUT, PATCH, DELETE."
+    },
+    {
+        "question": "What does a 200 HTTP status code mean?",
+        "answer": "OK, the request was successful."
+    },
+    {
+        "question": "What does a 404 HTTP status code mean?",
+        "answer": "Not Found. The server could not find the requested resource."
+    },
+    {
+        "question": "What does a 500 HTTP status code mean?",
+        "answer": "Internal Server Error."
+    },
+    {
+        "question": "What is CI/CD?",
+        "answer": "Continuous Integration and Continuous Deployment/Delivery."
+    },
+    {
+        "question": "How does automation fit into CI/CD?",
+        "answer": "Automated tests are run securely within the pipeline on every code change to verify build success."
+    },
+    {
+        "question": "What is Jenkins?",
+        "answer": "An open-source automation server used for building, testing, and deploying software."
+    },
+    {
+        "question": "What is a Headless Browser?",
+        "answer": "A web browser without a graphical user interface, often used by automation to run tests faster."
+    },
+    {
+        "question": "Name a framework used for JavaScript end-to-end testing.",
+        "answer": "Cypress or Playwright."
+    },
+    {
+        "question": "What is Cypress?",
+        "answer": "A next-generation front-end testing tool built for the modern web."
+    },
+    {
+        "question": "What is Playwright?",
+        "answer": "A testing and automation framework by Microsoft for reliable end-to-end testing across modern browsers."
+    },
+    {
+        "question": "What is TestNG?",
+        "answer": "A testing framework inspired by JUnit and NUnit, designed to cover a wider range of test categories."
+    },
+    {
+        "question": "What is JUnit?",
+        "answer": "A unit testing framework for the Java programming language."
+    },
+    {
+        "question": "What is PyTest?",
+        "answer": "A testing framework for Python that allows you to write simple and scalable test cases."
+    },
+    {
+        "question": "How do you handle a dropdown in Selenium?",
+        "answer": "By using the Select class and its methods like selectByVisibleText, selectByIndex, or selectByValue."
+    },
+    {
+        "question": "How do you handle multiple windows in Selenium?",
+        "answer": "By getting the window handles using getWindowHandles() and switching to the new window using switchTo().window()."
+    },
+    {
+        "question": "How do you capture a screenshot in Selenium?",
+        "answer": "By casting WebDriver to TakesScreenshot and calling the getScreenshotAs method."
+    },
+    {
+        "question": "What is an assertion in test automation?",
+        "answer": "A statement that verifies if the expected result matches the actual result."
+    },
+    {
+        "question": "What is the difference between Soft Assert and Hard Assert?",
+        "answer": "Soft Assert allows the test to continue even if it fails, while Hard Assert immediately stops the test."
+    },
+    {
+        "question": "What is Appium?",
+        "answer": "An open-source tool for automating native, mobile web, and hybrid applications on iOS and Android."
+    },
+    {
+        "question": "What is mock testing?",
+        "answer": "The practice of simulating parts of the system to test specific components in isolation."
+    },
+    {
+        "question": "What is stubbing in testing?",
+        "answer": "Creating a fake implementation of a service or method that returns predefined data."
+    },
+    {
+        "question": "What is the Robot Framework?",
+        "answer": "A generic open-source automation framework for acceptance testing and robotic process automation."
+    },
+    {
+        "question": "How do you handle alerts in Selenium?",
+        "answer": "Using the Alert interface and its methods like accept(), dismiss(), getText(), and sendKeys()."
+    }
+]
